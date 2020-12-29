@@ -1,0 +1,20 @@
+///////////////////////////////////////////////////////////////////////////////////////
+//  CWP JS HÜ 1
+//  Andreas Pilgerstorfer
+//
+//  This file contains the main Javascript which is loaded when the document gets loaded
+//  in the Browser
+//
+/////////////////////////////////////////////////////////////////////////////////////////
+let app = new App();
+
+$(document).ready(function () {
+
+    //initalise the covid app
+    app.init();
+
+});
+
+
+
+
