@@ -10,6 +10,29 @@
 		<link rel="shortcut icon" href="favicon.ico?" type="image/x-icon">
 		<link rel="icon" href="favicon.ico?" type="image/x-icon">
 	</head>
+	<style>
+
+		.sizingA{
+			height: 500px;
+			width: 350px;
+		}
+		@media(max-width: 540px){
+			.sizingA{
+				height: 400px;
+				width: 275px
+
+			}
+		}
+
+		@media(max-width: 365px){
+			.sizingA{
+				height: 300px;
+				width: 200px
+
+			}
+		}
+
+	</style>
 	<body class="is-preload">
 
 		<!-- Wrapper -->
@@ -51,7 +74,7 @@
 								</header>
 								<div style="display: flex; justify-content: center;border: 10px solid black; ">
 									<div style="margin-top: 15px">
-										<img style="height: 500px; width: 350px" src="images/Portrait.jpg" alt="" />
+										<img class="sizingA" src="images/Portrait.jpg" alt="" />
 									</div>
 								</div>
 
